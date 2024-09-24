@@ -8,8 +8,16 @@
           <include name="teardown"/>
           <include name="setup"/>
           <include name="verifyHomePageTitle"/>
+          <include name="navigateToSignInPage"/>
         </methods>
       </class> <!-- com.entrata.test.NavigationTests -->
+      <class name="com.entrata.test.FormInteractionTests">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="fillOutDemoRequestForm"/>
+        </methods>
+      </class> <!-- com.entrata.test.FormInteractionTests -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -13,6 +14,7 @@ import com.entrata.resources.Constants;
 public class DemoPage {
 
 	WebDriver driver;
+	WebDriverWait wait;
 
 	@FindBy(xpath = "//input[@id='FirstName']")
 	WebElement firstNameField;
@@ -45,10 +47,12 @@ public class DemoPage {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		this.wait=wait;
 	}
 
 	public String fillform() {
-
+		
+		wait.until(ExpectedConditions.visibilityOf(firstNameField));
 		firstNameField.sendKeys(Constants.firstName);
 		lastNameField.sendKeys(Constants.lastName);
 		emailField.sendKeys(Constants.email);
