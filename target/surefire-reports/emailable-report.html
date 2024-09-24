@@ -9,107 +9,12 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">2</td><td class="num">31,733</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">48,071</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.entrata.test.NavigationTests</td><td><a href="#m0">setup</a></td><td rowspan="1">1727189408798</td><td rowspan="1">2299</td></tr><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.entrata.test.FormInteractionTests</td><td><a href="#m1">fillOutDemoRequestForm</a></td><td rowspan="1">1727189394316</td><td rowspan="1">11494</td></tr><tr class="failedodd"><td rowspan="1">com.entrata.test.NavigationTests</td><td><a href="#m2">navigateToSignInPage</a></td><td rowspan="1">1727189408619</td><td rowspan="1">11</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.entrata.test.NavigationTests</td><td><a href="#m3">teardown</a></td><td rowspan="1">1727189411120</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.entrata.test.NavigationTests</td><td><a href="#m4">verifyHomePageTitle</a></td><td rowspan="1">1727189411107</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.entrata.test.FormInteractionTests</td><td><a href="#m0">fillOutDemoRequestForm</a></td><td rowspan="1">1727190173762</td><td rowspan="1">6498</td></tr><tr class="passedodd"><td rowspan="2">com.entrata.test.NavigationTests</td><td><a href="#m1">navigateToSignInPage</a></td><td rowspan="1">1727190189535</td><td rowspan="1">1954</td></tr><tr class="passedodd"><td><a href="#m2">verifyHomePageTitle</a></td><td rowspan="1">1727190211467</td><td rowspan="1">96</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.entrata.test.NavigationTests#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
-from target frame detached
-  (Session info: chrome=129.0.6668.58)
-Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e42f73459b9596a0d26f58fd1b988d80, get {url=https://www.entrata.com}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.58, chrome: {chromedriverVersion: 129.0.6668.58 (81a06fb873a9..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58197}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58197/devtoo..., se:cdpVersion: 129.0.6668.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e42f73459b9596a0d26f58fd1b988d80
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:302)
-	at com.entrata.test.BaseTest.browserInit(BaseTest.java:51)
-	at com.entrata.test.BaseTest.setup(BaseTest.java:33)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.entrata.test.FormInteractionTests#fillOutDemoRequestForm</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=129.0.6668.58)
-Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4dd3ce930198f206c676d37c2ce3c97d, findElement {using=xpath, value=//input[@id=&apos;FirstName&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.58, chrome: {chromedriverVersion: 129.0.6668.58 (81a06fb873a9..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58029}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58029/devtoo..., se:cdpVersion: 129.0.6668.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4dd3ce930198f206c676d37c2ce3c97d
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.toString(Unknown Source)
-	at java.base/java.lang.String.valueOf(String.java:4222)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:295)
-	at java.base/java.lang.String.valueOf(String.java:4222)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:225)
-	at com.entrata.pages.DemoPage.fillform(DemoPage.java:55)
-	at com.entrata.test.FormInteractionTests.fillOutDemoRequestForm(FormInteractionTests.java:17)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.entrata.test.NavigationTests#navigateToSignInPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=129.0.6668.58)
-Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7264afeae71545c5c3c2107a4066c471, findElement {using=id, value=cookie-accept}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.58, chrome: {chromedriverVersion: 129.0.6668.58 (81a06fb873a9..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58142}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58142/devtoo..., se:cdpVersion: 129.0.6668.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7264afeae71545c5c3c2107a4066c471
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
-	at com.entrata.test.BaseTest.acceptcookies(BaseTest.java:57)
-	at com.entrata.test.NavigationTests.navigateToSignInPage(NavigationTests.java:23)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.entrata.test.NavigationTests#teardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.entrata.test.NavigationTests#verifyHomePageTitle</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
-from target frame detached
-  (Session info: chrome=129.0.6668.58)
-Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e42f73459b9596a0d26f58fd1b988d80, get {url=https://www.entrata.com}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.58, chrome: {chromedriverVersion: 129.0.6668.58 (81a06fb873a9..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58197}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58197/devtoo..., se:cdpVersion: 129.0.6668.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e42f73459b9596a0d26f58fd1b988d80
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:302)
-	at com.entrata.test.BaseTest.browserInit(BaseTest.java:51)
-	at com.entrata.test.BaseTest.setup(BaseTest.java:33)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.entrata.test.FormInteractionTests#fillOutDemoRequestForm</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.entrata.test.NavigationTests#navigateToSignInPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.entrata.test.NavigationTests#verifyHomePageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
