@@ -22,7 +22,7 @@ public class FormInteractionTests extends BaseTest {
 
 	}
 
-	public void fillOutDemoRequestForm() throws InterruptedException {
+	public void fillOutDemoRequestForm2() throws InterruptedException {
 		page = new DemoPage(driver);
 		String expectedTitle = "Optimize Property Management with One Platform";
 		acceptcookies();
