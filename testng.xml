@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
 <suite name="EntrataParallelExu" parallel="tests" thread-count="2">
 	<test thread-count="5" name="Test">
 		<parameter name="browser" value="chrome" />
@@ -8,4 +9,13 @@
 			<class name="com.entrata.test.NavigationTests" />
 		</classes>
 	</test> <!-- Test -->
+=======
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.entrata.test.FormInteractionTests"/>
+      <class name="com.entrata.test.NavigationTests"/>
+    </classes>
+  </test> <!-- Test -->
+>>>>>>> 7f6bd8822b970dcfc49683370e2324558f1ef76c
 </suite> <!-- Suite -->

@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 D:\JS\Task\EntrataProd\src\test\java\com\entrata\test\RevisionClass.java
 D:\JS\Task\EntrataProd\src\test\java\com\entrata\test\BaseTest.java
 D:\JS\Task\EntrataProd\src\test\java\com\entrata\test\FormInteractionTests.java
 D:\JS\Task\EntrataProd\src\test\java\com\entrata\test\NavigationTests.java
+=======
+D:\Switch\Entrata\EntrataProd\src\test\java\com\entrata\test\NavigationTests.java
+D:\Switch\Entrata\EntrataProd\src\test\java\com\entrata\test\FormInteractionTests.java
+D:\Switch\Entrata\EntrataProd\src\test\java\com\entrata\test\BaseTest.java
+>>>>>>> 7f6bd8822b970dcfc49683370e2324558f1ef76c

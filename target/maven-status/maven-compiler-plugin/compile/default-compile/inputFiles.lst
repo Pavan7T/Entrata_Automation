@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 D:\JS\Task\EntrataProd\src\main\java\com\entrata\pages\HomePage.java
 D:\JS\Task\EntrataProd\src\main\java\com\entrata\resources\Constants.java
 D:\JS\Task\EntrataProd\src\main\java\com\entrata\pages\DemoPage.java
 D:\JS\Task\EntrataProd\src\main\java\com\entrata\resources\RetryAnalyzer.java
+=======
+D:\Switch\Entrata\EntrataProd\src\main\java\com\entrata\pages\DemoPage.java
+D:\Switch\Entrata\EntrataProd\src\main\java\com\entrata\resources\Constants.java
+D:\Switch\Entrata\EntrataProd\src\main\java\com\entrata\pages\HomePage.java
+>>>>>>> 7f6bd8822b970dcfc49683370e2324558f1ef76c

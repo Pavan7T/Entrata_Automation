@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -82,6 +83,55 @@
           </reporter-output>
         </test-method> <!-- windows_task -->
       </class> <!-- com.entrata.test.RevisionClass -->
+=======
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-18T17:41:56 IST" name="Suite" finished-at="2024-09-18T17:45:57 IST" duration-ms="240947">
+    <groups>
+    </groups>
+    <test started-at="2024-09-18T17:41:56 IST" name="Test" finished-at="2024-09-18T17:45:57 IST" duration-ms="240947">
+      <class name="com.entrata.test.NavigationTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.entrata.test.NavigationTests@f68f0dc]" started-at="2024-09-18T17:43:33 IST" name="setup" finished-at="2024-09-18T17:44:19 IST" duration-ms="46116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigateToSignInPage()[pri:0, instance:com.entrata.test.NavigationTests@f68f0dc]" started-at="2024-09-18T17:44:19 IST" name="navigateToSignInPage" finished-at="2024-09-18T17:45:06 IST" duration-ms="47075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSignInPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.entrata.test.NavigationTests@f68f0dc]" started-at="2024-09-18T17:45:06 IST" name="teardown" finished-at="2024-09-18T17:45:08 IST" duration-ms="1829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.entrata.test.NavigationTests@f68f0dc]" started-at="2024-09-18T17:45:08 IST" name="setup" finished-at="2024-09-18T17:45:53 IST" duration-ms="44412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePageTitle()[pri:0, instance:com.entrata.test.NavigationTests@f68f0dc]" started-at="2024-09-18T17:45:53 IST" name="verifyHomePageTitle" finished-at="2024-09-18T17:45:54 IST" duration-ms="1040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.entrata.test.NavigationTests@f68f0dc]" started-at="2024-09-18T17:45:54 IST" name="teardown" finished-at="2024-09-18T17:45:57 IST" duration-ms="3237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.entrata.test.NavigationTests -->
+      <class name="com.entrata.test.FormInteractionTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.entrata.test.FormInteractionTests@4b520ea8]" started-at="2024-09-18T17:41:56 IST" name="setup" finished-at="2024-09-18T17:42:58 IST" duration-ms="61748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="fillOutDemoRequestForm()[pri:0, instance:com.entrata.test.FormInteractionTests@4b520ea8]" started-at="2024-09-18T17:42:58 IST" name="fillOutDemoRequestForm" finished-at="2024-09-18T17:43:30 IST" duration-ms="31763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillOutDemoRequestForm -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.entrata.test.FormInteractionTests@4b520ea8]" started-at="2024-09-18T17:43:30 IST" name="teardown" finished-at="2024-09-18T17:43:33 IST" duration-ms="3380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.entrata.test.FormInteractionTests -->
+>>>>>>> 7f6bd8822b970dcfc49683370e2324558f1ef76c
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

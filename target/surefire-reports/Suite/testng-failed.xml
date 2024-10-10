@@ -3,12 +3,30 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
+<<<<<<< HEAD
       <class name="com.entrata.test.RevisionClass">
         <methods>
           <include name="init"/>
           <include name="actions_task"/>
         </methods>
       </class> <!-- com.entrata.test.RevisionClass -->
+=======
+      <class name="com.entrata.test.NavigationTests">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="verifyHomePageTitle"/>
+          <include name="navigateToSignInPage"/>
+        </methods>
+      </class> <!-- com.entrata.test.NavigationTests -->
+      <class name="com.entrata.test.FormInteractionTests">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="fillOutDemoRequestForm"/>
+        </methods>
+      </class> <!-- com.entrata.test.FormInteractionTests -->
+>>>>>>> 7f6bd8822b970dcfc49683370e2324558f1ef76c
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,1 +1,0 @@
-{"uuid":"bec60e0f-4ceb-4838-b837-ac8bfe99dd34","name":"com.entrata.test.BaseTest.setup","children":["1cbd9821-bf2b-40a9-9f37-1c4c403451a2"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1726661516655,"stop":1726661578373}],"afters":[],"start":1726661516654,"stop":1726661578375}

@@ -42,22 +42,12 @@
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
-<<<<<<< HEAD
-			<version>5.2.5</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi-ooxml</artifactId>
-			<version>5.3.0</version>
-=======
 			<version>5.2.3</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
 			<version>5.2.3</version>
->>>>>>> 7f6bd8822b970dcfc49683370e2324558f1ef76c
 		</dependency>
 
 		<!-- Allure TestNG Integration -->
@@ -68,11 +58,8 @@
 		</dependency>
 
 	</dependencies>
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 7f6bd8822b970dcfc49683370e2324558f1ef76c
 	<build>
 		<plugins>
 			<plugin>
@@ -81,12 +68,8 @@
 				<version>2.22.2</version>
 				<configuration>
 					<suiteXmlFiles>
-<<<<<<< HEAD
-						<suiteXmlFile>testng2Rev.xml</suiteXmlFile>
-=======
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 						>
->>>>>>> 7f6bd8822b970dcfc49683370e2324558f1ef76c
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
