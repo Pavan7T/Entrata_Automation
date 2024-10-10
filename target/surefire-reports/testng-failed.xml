@@ -3,13 +3,12 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="com.entrata.test.NavigationTests">
+      <class name="com.entrata.test.RevisionClass">
         <methods>
-          <include name="teardown"/>
-          <include name="setup"/>
-          <include name="verifyHomePageTitle"/>
+          <include name="init"/>
+          <include name="actions_task"/>
         </methods>
-      </class> <!-- com.entrata.test.NavigationTests -->
+      </class> <!-- com.entrata.test.RevisionClass -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

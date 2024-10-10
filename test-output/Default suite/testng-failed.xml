@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.entrata.test.NavigationTests">
+      <class name="com.entrata.test.IDS_loginTest">
         <methods>
-          <include name="teardown"/>
-          <include name="setup"/>
-          <include name="verifyHomePageTitle"/>
+          <include name="loginToIDS"/>
+          <include name="init"/>
         </methods>
-      </class> <!-- com.entrata.test.NavigationTests -->
+      </class> <!-- com.entrata.test.IDS_loginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
